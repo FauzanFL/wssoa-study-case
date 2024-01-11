@@ -1,0 +1,78 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c9fa89df2155f2b73376580d12bdc65e",
+    "packages": [
+        {
+            "name": "nguyenanhung/nusoap",
+            "version": "v0.9.15.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nguyenanhung/nusoap.git",
+                "reference": "1724b318004bf762a6b26b79b231d3d6f50c12b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nguyenanhung/nusoap/zipball/1724b318004bf762a6b26b79b231d3d6f50c12b3",
+                "reference": "1724b318004bf762a6b26b79b231d3d6f50c12b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "helpers/functions.php"
+                ],
+                "psr-4": {
+                    "nguyenanhung\\MyNuSOAP\\": "src/",
+                    "nguyenanhung\\MyFixNuSOAP\\": "fixed/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-only"
+            ],
+            "authors": [
+                {
+                    "name": "Dietrich Ayala",
+                    "homepage": "https://sourceforge.net/u/dietricha/profile/"
+                },
+                {
+                    "name": "Scott Nichol",
+                    "homepage": "https://sourceforge.net/u/snichol/profile/"
+                },
+                {
+                    "name": "Nguyen An Hung",
+                    "email": "dev@nguyenanhung.com",
+                    "homepage": "https://nguyenanhung.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "My nuSOAP Library, fix code for for PHP 8.2 <=> 5.4",
+            "homepage": "https://github.com/nguyenanhung/nusoap",
+            "keywords": [
+                "nusoap",
+                "soap"
+            ],
+            "support": {
+                "issues": "https://github.com/nguyenanhung/nusoap/issues",
+                "source": "https://github.com/nguyenanhung/nusoap/tree/v0.9.15.3"
+            },
+            "time": "2023-08-09T15:44:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "nguyenanhung/nusoap": "v0.9.15.3"
+    }
+}
